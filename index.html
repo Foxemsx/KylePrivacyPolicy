@@ -4,31 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <title>Privacy Policy - Kyle the Shef Discord Bot</title>
+    <link rel="icon" href="https://media.discordapp.net/attachments/1105873665490440273/1116387762111787119/images_4-2.png" type="image/png">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            background-color: #f2f2f2;
         }
 
         h1 {
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+        }
+
+        h1 span {
+            font-size: 14px;
+            color: #666;
+            margin-left: 10px;
         }
 
         h2 {
             margin-top: 30px;
+            color: #666;
+            list-style-type: disc;
+            margin-left: 15px;
         }
 
         p {
             margin-bottom: 10px;
+            color: #444;
+        }
+
+        .button-container {
+            display: flex;
+            position: absolute;
+            justify-content: left;
+            align-items: center;
+            margin-top: -50px;
+            margin-left: 20px;
+            margin-bottom: -50px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FF0000;
+            color: #FFF;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            background-image: linear-gradient(to right, #FF0000, #CC0000);
+            background-size: 200% auto;
+            transition: background-position 0.5s;
+        }
+
+        .button:hover {
+            background-position: right center;
+        }
+
+        .button:active {
+            background-image: none;
+            background-color: #CC0000;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #888;
         }
     </style>
 </head>
 
 <body>
-    <h1>Privacy Policy for Kyle the Shef Discord Bot</h1>
-    <p>Last Updated: 21.05.2023 17:54</p>
+    <h1>
+        Privacy Policy for Kyle the Shef Discord Bot
+        <span>Last Updated: 21.05.2023 17:54</span>
+    </h1>
 
-    <p>This Privacy Policy outlines the types of information collected and how it is used and protected when you use the Kyle the Shef Discord Bot ("the Bot"), created by Foxems#6719 ("the Owner"). By adding the Bot to your Discord server or using its functionalities, you acknowledge and agree to the practices described in this Privacy Policy. If you do not agree with this Privacy Policy, please refrain from using the Bot.</p>
+    <div class="button-container">
+        <button class="button" onclick="window.location.href = 'https://foxemsx.github.io/KyleTermsAPolicy/'">Terms of Service</button>
+    </div>
 
     <h2>Information Collection and Use</h2>
     <p>1.1 The Bot may collect and store certain user data, including but not limited to user IDs, server IDs, and message content, solely for the purpose of providing its functionalities.</p>
